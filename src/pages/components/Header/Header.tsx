@@ -8,8 +8,8 @@ type Props = {
 
 export const Header = ({ title, detail }: Props) => {
     return (
-        <div className='flex justify-center items-center py-20 px-40 bg-black w-full h-max'>
-            <div className="flex flex-row">
+        <div className='flex justify-center items-center py-20 px-40 bg-gray-900 w-full h-max'>
+            <div className="flex flex-row gap-2">
                 <div className='flex flex-col justify-center gap-10'>
                     <div className='text-5xl text-white font-bold'>
                         {title || "Main big title here"}
@@ -23,7 +23,7 @@ export const Header = ({ title, detail }: Props) => {
                     </div>
                 </div>
 
-                <div>
+                <div className="p-2 bg-gray-800 rounded-2xl">
                     <img src={Dashboard} />
                 </div>
             </div>

@@ -8,8 +8,10 @@ export const Landing = ({}: Props) => {
     return (
         <div>
             <TopBar />
-            <Header />
-            <LogosBar />
+            <Header 
+                title="SaaS Landing Page Template"
+                detail="This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com"/>
+            <LogosBar/>
         </div>
     )
 }
